@@ -14,7 +14,7 @@ users=[5,1];
 users=['MAx', 'Anna'];
 
 
-let possibleResults: [number, number,];
+export let possibleResults: [number, number,];
 
 possibleResults = [1, -1];
 possibleResults = [5, 10];
