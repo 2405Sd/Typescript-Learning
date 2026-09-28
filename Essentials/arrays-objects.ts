@@ -39,6 +39,12 @@ let user:{
 };
 
 
+let val:{}= 'is a value';
+
+
+
+
+
 
 
 
