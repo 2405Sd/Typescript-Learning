@@ -7,9 +7,10 @@ let userAge = 34;
 userName = 'Max';
 // userAge = '34';
 
-function add(a: number, b=5) {
-  return a + b;
+ export function add(a: number, b: number): number {
+	return a + b;
 }
-add(10);
-add(10,15);
+
+add(10, 5);
+add(10, 15);
 
