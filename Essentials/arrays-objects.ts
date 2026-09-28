@@ -21,8 +21,21 @@ possibleResults = [5, 10];
 
 
 let user:{
-    name:'Akash',
-    age: 26
+    name: string;
+    age: number;
+    hobbies: string[];
+    role:{
+        description: string;
+        id: number;
+    }
+} = {
+    name: 'Akash',
+    age: 26,
+    hobbies: ['sports', 'cooking'],
+    role: {
+        description: 'Admin',
+        id: 1
+    }
 };
 
 
