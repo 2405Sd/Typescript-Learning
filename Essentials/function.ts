@@ -46,5 +46,6 @@ let user: User ={
     }
 }
 
+user.greet();
 
 
